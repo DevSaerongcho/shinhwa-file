@@ -1,27 +1,24 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
   "servers": [
     {
-      "id": "Shinhwa-1.20.1",
-      "name": "Shinhwa (Minecraft 1.20.1)",
-      "description": "Shinhwa Running Minecraft 1.20.1 (Fabric v0.16.10)",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "localhost:25565",
-      "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
+      "id": "Shinhwa-1.21.4",
+      "name": "신화 (1.21.4)",
+      "description": "신화 Minecraft 1.21.4 Fabric 서버",
+      "icon": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/servers/Shinhwa-1.21.4/Shinhwa-1.21.4.png",
+      "version": "1.0.1",
+      "address": "play.dpgames.kr:25565",
+      "minecraftVersion": "1.21.4",
       "mainServer": true,
       "autoconnect": true,
+      "javaOptions": {
+        "supported": ">=21.x",
+        "suggestedMajor": 21,
+        "ram": {
+          "recommended": 4096,
+          "minimum": 2048
+        }
+      },
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.16.10",
@@ -30,17 +27,17 @@
           "artifact": {
             "size": 1387408,
             "MD5": "239d59118dec4324672b3d9e9d75efef",
-            "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+            "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-fabric-0.16.10",
+              "id": "1.21.4-fabric-0.16.10",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2859,
-                "MD5": "65de07313a1f570e8cf23a0ea210a03a",
-                "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/repo/versions/1.20.1-fabric-0.16.10/1.20.1-fabric-0.16.10.json"
+                "MD5": "d52de931e00db6ff5e23d4fd5e162051",
+                "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/repo/versions/1.21.4-fabric-0.16.10/1.21.4-fabric-0.16.10.json"
               }
             },
             {
@@ -50,7 +47,7 @@
               "artifact": {
                 "size": 126093,
                 "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
               }
             },
             {
@@ -60,7 +57,7 @@
               "artifact": {
                 "size": 35126,
                 "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
               }
             },
             {
@@ -70,7 +67,7 @@
               "artifact": {
                 "size": 73459,
                 "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
               }
             },
             {
@@ -80,7 +77,7 @@
               "artifact": {
                 "size": 51939,
                 "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
               }
             },
             {
@@ -90,7 +87,7 @@
               "artifact": {
                 "size": 94519,
                 "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
               }
             },
             {
@@ -100,29 +97,69 @@
               "artifact": {
                 "size": 1494834,
                 "MD5": "991ca8be2c408fe19eb64014d8a18243",
-                "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+                "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.20.1",
+              "id": "net.fabricmc:intermediary:1.21.4",
               "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 573365,
-                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
               }
             }
           ]
         },
         {
-          "id": "generated.fabricmod:journeymap:1.7.10-5.2.8-unlimited@jar",
+          "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149128,
+            "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/servers/Shinhwa-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/servers/Shinhwa-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
           "name": "Journeymap",
           "type": "FabricMod",
           "artifact": {
-            "size": 8932199,
-            "url": "https://github.com/DevSaerongcho/shinhwa-file/raw/master/servers/Shinhwa-1.20.1/fabricmods/required/journeymap-1.7.10-5.2.8-unlimited.jar",
-            "MD5": "f0c1bce6a615b0de6de8d46285e3ab51"
+            "size": 3514384,
+            "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/servers/Shinhwa-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "MD5": "3893e727701bc66b4f3dbd80a434282d"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.6+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 655990,
+            "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/servers/Shinhwa-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.6+mc1.21.3.jar",
+            "MD5": "c95329994b4cc793ec412462543c4f67"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/servers/Shinhwa-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
           }
         }
       ]

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.1",
+    "name": "신화 (1.21.4)",
+    "description": "신화 Minecraft 1.21.4 Fabric 서버",
+    "icon": "",
+    "address": "play.dpgames.kr:25565",
+    "mainServer": true,
+    "autoconnect": true,
+    "javaOptions": {
+      "supported": ">=21.x",
+      "suggestedMajor": 21,
+      "ram": {
+        "recommended": 4096,
+        "minimum": 2048
+      }
+    }
+  },
+  "fabric": {
+    "version": "0.16.10"
+  },
+  "untrackedFiles": []
+}
