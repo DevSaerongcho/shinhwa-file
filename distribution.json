@@ -6,7 +6,7 @@
       "name": "신화 (1.21.4)",
       "description": "신화 Minecraft 1.21.4 Fabric 서버",
       "icon": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/servers/Shinhwa-1.21.4/Shinhwa-1.21.4.png",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "address": "play.dpgames.kr:25565",
       "minecraftVersion": "1.21.4",
       "mainServer": true,
@@ -163,7 +163,7 @@
           }
         },
         {
-          "id": "com.rongcho.shinhwachat:shinhwa-chat:1.0.1@jar",
+          "id": "com.rongcho.shinhwachat:shinhwa-chat:1.0.2@jar",
           "name": "Shinhwa Chat",
           "type": "FabricMod",
           "required": {
@@ -171,9 +171,9 @@
             "def": true
           },
           "artifact": {
-            "size": 67521,
-            "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/servers/Shinhwa-1.21.4/fabricmods/optional/ShinhwaChat-1.0.1.jar",
-            "MD5": "e2a48b1a5cc00ea473bfbdc31703b627"
+            "size": 70668,
+            "url": "https://raw.githubusercontent.com/DevSaerongcho/shinhwa-file/main/servers/Shinhwa-1.21.4/fabricmods/optional/ShinhwaChat-1.0.2.jar",
+            "MD5": "829a9ebd3e1f9a2843cd635c95e666d7"
           }
         }
       ]
